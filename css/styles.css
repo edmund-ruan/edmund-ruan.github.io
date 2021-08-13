@@ -1,0 +1,47 @@
+#top{
+    color:steelblue;
+    font-size: 3rem;
+    background-color: wheat;
+    border: 3px solid black;
+}
+h2,h3{
+    color: peru;
+}
+/* Comment */
+/* Selectors */
+
+/* Class selectors */
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.blue{
+    color:rgb(0,0,255);
+}
+.lowercase{
+    text-transform: lowercase;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+/* IDs should be unique. Classes don't have to be. */
+
+/* div is block level organization while span is in-line organization */
+
+div{
+    color: tomato;
+    background-color: black;
+}
+span{
+    text-transform: uppercase;
+}
+
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+/* Universal selector is an astertisk (*)
+CSS Inheritance and Specificity */
+
