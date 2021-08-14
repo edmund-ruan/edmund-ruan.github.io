@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edmund Ruan - Future Software Engineer</title>
+    <title>Lillian Chen - Future Software Engineer</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="./css/styles.css">
     <!-- <script src="./script.js"></script> -->
 </head>
@@ -16,8 +17,10 @@
         <p>This is my very VERY first webpage. Glad that you're here.</p>
         <h3>Below is a picture of me!</h3>
         <!-- Edmund image -->
-        <img src="./images/Edmund.jpg" width ="350" alt="I'm not here">
+        <!-- <img src="./images/Edmund.jpg" width ="350" alt="I'm not here"> -->
         <!--Hello there, this button says hi.-->
+        <br>
+        <img src="./Photo on 8-14-21 at 1.36 PM.jpg" width="350" alt="I'm not here">
         <br>
         <br>
         <button type="button" onclick="alert('Hi!')">Click Me!</button>
@@ -41,6 +44,12 @@
                 <td>hello2</td>
             </tr>
             <br>
+            <i class="fab fa-twitter"></i>
+            <br>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-twitter"></i>
         <p style="width:50%">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consectetur cumque, delectus quos dolorum nostrum veritatis reiciendis, nam magni repudiandae porro velit ducimus animi facere adipisci, illum iste quasi aliquam!</p>
         <form action="" method="">
             <label for="name">first name </label>
@@ -73,7 +82,59 @@
         <label for="javascript">JavaScript</label>
 
         </table>
-        <br><br><br><br><br><br><br><br>
+        <b></b>
+        <br><br><br>
+        
+        <style>
+            .mySlides {
+                display: none;
+            }
+        </style>
+        
+        <body>
+        
+            <h2 class="w3-center">Manual Slideshow</h2>
+        
+            <div class="w3-content w3-display-container">
+                <img class="mySlides" src="./DRP_Presentation_img/DRP_Presentation1024_1.jpg" alt="img" width="100%">
+                <img class="mySlides" src="./DRP_Presentation_img/DRP_Presentation1024_2.jpg" alt="img">
+                <img class="mySlides" src="./DRP_Presentation_img/DRP_Presentation1024_3.jpg" alt="img">
+                <img class="mySlides" src="./DRP_Presentation_img/DRP_Presentation1024_4.jpg" alt="img">
+                <img class="mySlides" src="./DRP_Presentation_img/DRP_Presentation1024_5.jpg" alt="img">
+                <img class="mySlides" src="./DRP_Presentation_img/DRP_Presentation1024_6.jpg" alt="img">
+                <img class="mySlides" src="./DRP_Presentation_img/DRP_Presentation1024_7.jpg" alt="img">
+                <img class="mySlides" src="./DRP_Presentation_img/DRP_Presentation1024_8.jpg" alt="img">
+                <img class="mySlides" src="./DRP_Presentation_img/DRP_Presentation1024_9.jpg" alt="img">
+                <img class="mySlides" src="./DRP_Presentation_img/DRP_Presentation1024_10.jpg" alt="img">
+                <img class="mySlides" src="./DRP_Presentation_img/DRP_Presentation1024_11.jpg" alt="img">
+                <img class="mySlides" src="./DRP_Presentation_img/DRP_Presentation1024_12.jpg" alt="img">
+                <img class="mySlides" src="./DRP_Presentation_img/DRP_Presentation1024_13.jpg" alt="img">
+                <img class="mySlides" src="./DRP_Presentation_img/DRP_Presentation1024_14.jpg" alt="img">
+        
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+        
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = x.length }
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    x[slideIndex - 1].style.display = "block";
+                }
+            </script>
+        <br><br><br><br><br>
 
         <a href="#top"> <img src="./images/up_arrow.jpg" width="50" alt="Missing image">
         </a>

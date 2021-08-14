@@ -1,3 +1,4 @@
-setInterval(function () {
-  alert("Hello");
-}, 3000);
+// setInterval(function () {
+//   alert("Hello");
+// }, 3000);
+
