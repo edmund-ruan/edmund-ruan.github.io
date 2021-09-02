@@ -31,10 +31,7 @@ h2,h3{
 
 /* div is block level organization while span is in-line organization */
 
-div{
-    color: tomato;
-    background-color: black;
-}
+
 span{
     text-transform: uppercase;
 }
@@ -45,3 +42,7 @@ body{
 /* Universal selector is an astertisk (*)
 CSS Inheritance and Specificity */
 
+div {
+  margin: auto;
+  width: 50%;
+}
